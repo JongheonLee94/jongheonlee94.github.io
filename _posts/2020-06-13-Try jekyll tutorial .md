@@ -1,14 +1,7 @@
 ---
-layout: default
-title: Post
+layout: post
+author: Jongheon
 ---
-# Post page
----
-
-
-
-## Try jekyll tutorial 
-### 2020/06/13
 Jekyll 튜토이얼 사이트
 
 https://jekyllrb-ko.github.io/docs/step-by-step/01-setup/
@@ -65,38 +58,4 @@ layout: default
 쓸내용
 
 ---
-
-
-## Try jekyll tutorial 
-### 2020/06/15
-
-## 5.조각파일
- 
- include 태그이용
-
-_includes 폴더 생성하고 html 파일생성
-
-
-```
-{% raw %}
- {% include 파일명.html %}
-{% endraw %}
-```
-원하는 _includes 하위 파일명을 가져다 쓴다.
-
-설명을 하기 위해 쓴
-{% raw %}
-  {% include 파일명.html %}
-{% endraw %}
-가 문제를 발생
-
-{% raw %}
-    {% raw %}
-{% endraw %}
-와 endraw
-
-를 사용해서 해결
-
-## 6.데이터
-_data 하위에 yml 을 만들고 추후 site.data.navigation으로 이용가능합니다.
 
