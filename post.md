@@ -29,7 +29,10 @@ https://jekyllrb-ko.github.io/docs/step-by-step/01-setup/
 7. http://localhost:4000/페이지이름.html 
          -index.html이라면 페이지이름.html 제거
 
-2~3 Liquid
+
+---
+
+## 2~3 Liquid
 
 Liquid 태그를 실행시키기 위해선 반드시 위쪽에
 
@@ -41,7 +44,9 @@ Liquid 태그를 실행시키기 위해선 반드시 위쪽에
 
 -태그설명 -  https://jekyllrb-ko.github.io/docs/liquid/tags/
 
-4.레이아웃
+---
+
+## 4.레이아웃
 
 _layouts 폴더를 만들고 그 안에 레이아웃으로 쓸 페이지를 만든다.
 바뀔부분에 {{ content }} 를 넣는다.
@@ -57,3 +62,16 @@ layout: default
 쓸내용
 
 ---
+
+
+## Try jekyll tutorial 
+### 2020/06/15
+
+## 5.조각파일
+ 
+ include 태그이용
+
+1. _includes 폴더 생성하고 html 파일생성
+
+2. {% include 파일명.html %} 원하는 _includes 하위 파일명을 가져다 쓴다.
+
