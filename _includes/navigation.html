@@ -1,8 +1,9 @@
 <div><H1>My page</H1></div>
 <nav>
     <ul>
-        <li><a href="index.html">Index</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="post">Post</a></li>
+        <li><a href="/" {% if page.url == "/" %}style="color: red;"{% endif %}>Index</a></li>
+        <li><a href="about.html"{% if page.url == "/about.html" %}style="color: red;"{% endif %}>
+            About</a></li>
+        <li><a href="post"  {% if page.url == "/post.html" %}style="color: red;"{% endif %}>Post</a></li>
     </ul>
   </nav>
