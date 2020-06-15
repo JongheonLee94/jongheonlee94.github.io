@@ -1,1 +1,10 @@
-Gemfile.lock
+Gemfile.lock,
+
+9606fb3afea5bd1609ed40b622142f1c98125abcfe89a76a661b0e8e343910
+### Jekyll ###
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# End of https://www.toptal.com/developers/gitignore/api/jekyll
